@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>영화검색사이트</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <div class ="searching">
-        <h1>영화 검색</h1>
+  <body>
+    <nav id="searching">
+      <h1>영화 검색</h1>
+      <input id="search" type="text" placeholder="영화를 검색하세요..." />
+      <button id="searchBtn">검색</button>
+      <p>북마크 보기</p>
+    </nav>
 
-        <div class="search">
-            <input type="text" placeholder="영화를 검색하세요...">
-        </div>
+    <ul id="result"></ul>
 
-        <h1>북마크 보기</h1>
-    </div>
+    <div id="modal" class="modal">테스트</div>
 
-
-
-    <div id="movie-container"></div>
-
-
-
-    <script src="index.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
