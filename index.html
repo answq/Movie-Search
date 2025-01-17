@@ -8,16 +8,34 @@
   </head>
 
   <body>
-    <nav id="searching">
-      <h1>영화 검색</h1>
-      <input id="search" type="text" placeholder="영화를 검색하세요..." />
+    <header id="searching">
+      <h1 style="color: #ffffff">영화 검색</h1>
+      <form>
+        <input id="search" type="text" placeholder="영화를 검색하세요..."></input>
       <button id="searchBtn">검색</button>
-      <p>북마크 보기</p>
-    </nav>
+      </form>
+      <p id="bookmarkBtn" style="color: #ffffff">북마크 보기</p>
+    </header>
+   
 
-    <ul id="result"></ul>
+    <ul id="container"> <div id="movieList"></div>
+    </ul>
 
-    <div id="modal" class="modal">테스트</div>
+    <section id="modal" class="modal-hide">
+        <div class="modal-contents">
+          <button class="modalBtn">Open Modal</button>
+          <div id="movieDetails">
+            <div class="image-in-modal">
+              <img id="myPoster" src="">
+            </div>
+            <h2 id="myTitle">영화제목</h2>
+            <p id="myOverview">영화소개</p>
+            <p id="myReleaseDate">`개봉일 : ${}`</p>
+            <p id="myVoteRate">`평점 : ${}`</p>
+            <button id="myBookMark">`북마크 추가`</button>
+          </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
   </body>
