@@ -73,9 +73,7 @@ ul {
   text-align: center;
 }
 
-.modal-hide {
-  display: none;
-}
+
 .modal {
   position: fixed;
   top: 0;
@@ -85,18 +83,16 @@ ul {
   background-color: green;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .modal-contents {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid rgb(163, 176, 180);
-  border-radius: 10px;
-  width: 400px;
-  height: 700px;
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(163, 176, 180);
+    border-radius: 10px;
+    width: 400px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }

@@ -13,6 +13,5 @@ fetch api를 이용해 TMDB의 api를 어떻게 가져오는거지?
 https://www.youtube.com/watch?v=qN6Svts61qs&t=56s
 
 
-내 API Key: 91125c46c3b2fb223e5c555b2fa27f73
 
 
